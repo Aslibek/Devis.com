@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a {
+    display: inline-block;
+}
+.All {
+    max-width: 1300px;
+    margin: 10px auto;
+}
+.tepa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    margin-bottom: 15px;
+}
+.links {
+    text-decoration: none;
+    margin-bottom: 35px;
+    color: gray;
+    font-weight: bold;
+    font-size: 23px;
+}
+.linkss {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 26px;
+}
+.orta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+.nom {
+    width: 1px;
+}
+.info {
+    font-weight: bold;
+    font-size: 18px;
+    width: 150px;
+}
+.rrm {
+    text-align: center;
+    margin-bottom: 140px;
+}
+.div2 {
+    text-align: center;
+    margin-bottom: 140px;
+    background-color: rgba(71, 71, 255, 0.075);
+    padding: 100px;
+}
+.About {
+    margin-bottom: 30px;
+}
+.information {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.information2 {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.information3 {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.All2 {
+    text-align: center;
+}
+.xcv {
+    font-weight: bold;
+}
+.ru {
+    font-size: 20px;
+}
+.Work {
+    margin-top: 40px;
+    font-weight:  bold;
+    font-size: 14px;
+}
+.yaxsh {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 140px;
+}
+.raspas {
+    font-weight: bold;
+    font-size: 13px;
+    color: gray;
+    width: 100px;
+}
+.zxc {
+    margin-top: 60px;
+}
+.part2 {
+    background-color:rgba(71, 71, 255, 0.075) ;
+    padding: 100px;
+}
+.manzil {
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+.manzil2 {
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+.manzil3 {
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+.ACH {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.534);
+    padding: 50px;
+}
+.AD {
+    font-weight: bold;
+}
+.Want {
+    font-weight: bold;
+    font: 13px;
+}
+.knopka {
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.icons {
+    margin-bottom: 20px;
+}
+.oxiri {
+    font-weight: bold;
+    font-size: 12px;
+    color: gray;
+}
+@media (max-width:585px) {
+    .part2 {
+        padding: 15px;
+    }
+    .div2 {
+        padding: 15px;
+    }
+    .div1 {
+        padding: 15px;
+    }
+    .AD {
+        margin-bottom: 10px;
+    }
+    .Want {
+        margin-bottom: 10px;
+    }
+    .ACH {
+        padding: 15px;
+    }
+}
+@media (max-width:480px) {
+    .links {
+       width: 50%; 
+    }
+    .linkss {
+        text-align: center;
+        width: 40%;
+    }
+    .tepa {
+        justify-content: center;
+        text-align: center;
+    }
+    .nom {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .yaxsh {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+}
+@media (max-width:350px) {
+    .yaxsh {
+        justify-content: center;
+    }
+    .A {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:270px) {
+    .ru {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .div1 {
+        padding: 5px;
+    }
+    .pas {
+        padding: 5px;
+    }
+    .part1 {
+        padding: 5px;
+    }
+    .part2 {
+        padding: 5px;
+    }
+    .ACH {
+        padding: 5px;
+    }
+}
